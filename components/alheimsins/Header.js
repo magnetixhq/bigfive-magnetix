@@ -17,7 +17,6 @@ export default ({ user, info }) => (
         <Link route='/test' activeClassName='active'><a>TEST</a></Link>
         <Link route='/result' activeClassName='active'><a>RESULT</a></Link>
         <Link route='/compare' activeClassName='active'><a>COMPARE</a></Link>
-        <Link route='/about' activeClassName='active'><a>ABOUT</a></Link>
       </div>
       <div className='nav-right'>
         {user
