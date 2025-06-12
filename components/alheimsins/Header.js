@@ -3,7 +3,16 @@ import Link from './Link'
 export default ({ user, info }) => (
   <header>
     <div className='nav-container'>
-      <div className='links-container'>
+      <div className='nav-left'>
+  <Link route='/'>
+    <img
+  src="/HorizontalLogo-Magnetix-02.png"
+  alt="Magnetix Logo"
+  style={{ height: '40px', verticalAlign: 'middle', display: 'inline-block' }}
+    />
+  </Link>
+</div>
+<div className='links-container'>
         <Link route='/' activeClassName='active'><a>HOME</a></Link>
         <Link route='/test' activeClassName='active'><a>TEST</a></Link>
         <Link route='/result' activeClassName='active'><a>RESULT</a></Link>
