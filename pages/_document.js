@@ -15,6 +15,10 @@ export default class extends Document {
     return (
       <html lang='en'>
         <Head>
+      <link
+  href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
