@@ -3,6 +3,7 @@ import App from 'next/app'
 import React from 'react'
 import { Router } from '../routes'
 import * as gtag from '../lib/gtag'
+import '../styles/global.css'
 
 Router.onRouteChangeComplete = url => gtag.pageview(url)
 
